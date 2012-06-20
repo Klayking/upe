@@ -1,0 +1,92 @@
+upe-core
+---------------------
+
+- Close trie handles when they are not needed 
+- Add public version cvar
+- Check if RegisterPropertyFloat and RegisterPropertyCell can be the same function, like SetTrieValue
+- Update RegisterProperty functions so they'll work on plugin reload
+
+ideas for modules
+----------------------
+
+X = Must be built-in in the UPE package.
+
+general
+
+ X reserved slot DONE
+ X speed DONE
+ X increased fire rate with all weapons (http://forums.alliedmods.net/showthread.php?p=1635409)
+ X command that instantly swaps you to the other team at any time
+ X personal welcome message.
+ - colored in-game chat messages (http://forums.alliedmods.net/showthread.php?t=167814)
+ - damage modifier
+ - armor
+ - gravity DONE	
+ - self damage immunity	
+ X fall damage immunity
+ - hp bonus when you kill
+ - when a non-premium player kills a premium, give him some health so the game will be more fair
+
+tf2
+ - all classes
+   X critical hit modifier (http://forums.alliedmods.net/showthread.php?t=69743) 	DONE
+   X immunty to damage during the bonus round (http://forums.alliedmods.net/showthread.php?p=703282)
+   
+ - scout
+   - give new sandman ball every X seconds
+   - ability to use bonk without pauses
+   - longer bonk effect
+   - infinite madmilks
+   - removed the health penalty when using the Sandman.
+
+ - pyro
+   - ability to use airblast with the backburner
+   - pyro explosion (http://forums.alliedmods.net/showthread.php?p=615760)
+
+ - soldier
+   X birds instead of rockets (http://forums.alliedmods.net/showthread.php?p=1486426) 
+   - higher rocket jumps
+   - faster rage charge
+   - ability to be healed by a medic when you're carrying The Equalizer.
+   - remove the blast radius penalty in the direct hit.
+
+   
+ - demoman
+   - higher sticky jumps
+   - ability to get critical hits with the Eyelander.
+   - remove the health penalty when carring the Eyelander.
+  
+ - engineer
+   X extra buildings, property for each building ("extra-sentries", "extra-dispensers", "extra-teleport-entrances")
+   X infinite metal
+   - ability to build dispensers and teleport entrances on restricted zones (like spawn)
+
+ - medic
+   - you always start with 50% ubercharge
+   - longer ubercharges
+ 
+ - sniper
+   X fire arrows (http://forums.alliedmods.net/showthread.php?t=150292)
+   - holy arrows (http://forums.alliedmods.net/showthread.php?p=1375205)
+ 
+ - spy
+   X infinite cloak time with all clocks
+ 
+ - heavy
+   - cakes instead of sandviches/steaks (http://forums.alliedmods.net/showthread.php?p=1544673)
+   - infinite sandvichs, chocolates, etc
+   - infinite buffalo streaks
+
+ideas for base
+----------------------
+
+- trial
+    - cvar: how long?
+	- cvar: restart when?
+	
+- admin menu
+    - enable/disable plugin
+	- reload from mysql
+	- add new premium
+	- remove premium
+	- change player level
